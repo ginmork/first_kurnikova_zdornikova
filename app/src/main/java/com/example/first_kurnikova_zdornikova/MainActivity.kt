@@ -1,9 +1,6 @@
 package com.example.first_kurnikova_zdornikova
 
-import android.annotation.SuppressLint
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import kotlin.random.Random
@@ -19,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.buttonRes.setOnClickListener {
             val randomNumber = Random.nextInt(1, 7)
-            binding.textViewRes.text = "Выпало $randomNumber"
+            binding.textViewRes.text = getString(R.string.res_text, randomNumber)
         }
     }
 }
