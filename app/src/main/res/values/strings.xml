@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">first_kurnikova_zdornikova</string>
+    <string name="button_text">Бросить кубик</string>
+    <string name="res_text">Нажмите кнопку, чтобы бросить кубик</string>
 </resources>
